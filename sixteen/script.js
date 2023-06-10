@@ -65,7 +65,7 @@ function clickTd(element) {
   if (element == 16) {
     if (td.style.backgroundColor == "green") {
       setTimeout(() => {
-        alert("Winner :)");
+        alert("Congrats! Winner :)");
       }, 300);
       setTimeout(() => {
         window.location.reload();
